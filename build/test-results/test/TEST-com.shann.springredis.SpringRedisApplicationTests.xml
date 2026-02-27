@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.shann.springredis.SpringRedisApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-24T17:48:29.303Z" hostname="Shantanus-MacBook-Air.local" time="11.627">
+  <properties/>
+  <testcase name="testRedis()" classname="com.shann.springredis.SpringRedisApplicationTests" time="8.083"/>
+  <system-out><![CDATA[23:18:29.515 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.shann.springredis.SpringRedisApplicationTests]: SpringRedisApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:18:29.775 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.shann.springredis.SpringRedisApplication for test class com.shann.springredis.SpringRedisApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.3)
+
+2026-02-24T23:18:30.391+05:30  INFO 12423 --- [SpringRedis] [    Test worker] c.s.s.SpringRedisApplicationTests        : Starting SpringRedisApplicationTests using Java 21.0.10 with PID 12423 (started by shantanukumar in /Users/shantanukumar/IdeaProjects/SpringRedis)
+2026-02-24T23:18:30.393+05:30  INFO 12423 --- [SpringRedis] [    Test worker] c.s.s.SpringRedisApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2026-02-24T23:18:30.878+05:30  INFO 12423 --- [SpringRedis] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-24T23:18:30.880+05:30  INFO 12423 --- [SpringRedis] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-24T23:18:30.961+05:30  INFO 12423 --- [SpringRedis] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 0 Redis repository interfaces.
+2026-02-24T23:18:31.259+05:30  WARN 12423 --- [SpringRedis] [    Test worker] i.n.r.d.DnsServerAddressStreamProviders  : Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2026-02-24T23:18:32.085+05:30  INFO 12423 --- [SpringRedis] [    Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2026-02-24T23:18:32.817+05:30  INFO 12423 --- [SpringRedis] [    Test worker] c.s.s.SpringRedisApplicationTests        : Started SpringRedisApplicationTests in 2.845 seconds (process running for 5.23)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/shantanukumar/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.8/f09415827a71be7ed621c7bd02550678f28bc81c/byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
